@@ -1,2 +1,3 @@
-# ahmadmahomsi.github.io
-Personal website of Ahmad Malak Homsi — أحمد ملاك الحمصي
+# Ahmad Malak Homsi
+
+Personal website in Arabic and English.
