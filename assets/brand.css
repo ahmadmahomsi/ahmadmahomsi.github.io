@@ -163,35 +163,22 @@ html[lang="ar"] .section h2 {
 .community-copy p, .case-step p, .contact-location, .social-links a { color: var(--muted); }
 
 .event-note {
-  display: grid;
-  grid-template-columns: clamp(106px, 17vw, 206px) minmax(0, 1fr);
-  align-items: center;
-  gap: clamp(14px, 2.3vw, 28px);
-  margin: 30px 0 0;
-  padding-block: 20px 0;
-  border-top: 1px solid var(--line);
-  color: var(--ink);
-  font-size: clamp(14px, 1.5vw, 17px);
-  line-height: 1.65;
+  max-width: 340px;
+  margin: 28px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
 }
 
 .event-note img {
+  display: block;
   width: 100%;
   height: auto;
   border: 1px solid var(--line);
   border-radius: var(--radius);
 }
 
-.event-label {
-  display: block;
-  margin-bottom: 4px;
-  color: var(--dark-gold);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .08em;
-}
-
-html[lang="ar"] .event-label { letter-spacing: normal; }
+.event-note figcaption { margin-top: 8px; }
 
 .vision {
   color: var(--paper);
