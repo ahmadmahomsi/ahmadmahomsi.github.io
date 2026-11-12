@@ -118,6 +118,12 @@ html[lang="ar"] .hero h1 {
   box-shadow: 0 0 0 1px var(--gold);
 }
 
+.portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .trust, .case, .community, .contact-panel { background: var(--soft-panel); }
 
 .trust-item, .case-step, .topic, .social-links a { border-color: var(--line); }
@@ -189,6 +195,12 @@ html[lang="ar"] .date { text-align: right; }
 }
 
 .media-body .media-link { margin-block-start: auto; }
+
+.media-body .media-caption {
+  margin-block-end: 14px;
+  font-size: 13px;
+  line-height: 1.6;
+}
 
 .media-visual, .community-picture { background: var(--soft-panel); }
 
