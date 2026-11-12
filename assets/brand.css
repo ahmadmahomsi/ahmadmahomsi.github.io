@@ -146,12 +146,49 @@ html[lang="ar"] .section h2 {
 
 .section .number { display: none; }
 
+.about-grid {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  grid-template-areas:
+    "bio photo"
+    "quote photo";
+  align-items: start;
+  column-gap: clamp(32px, 7vw, 90px);
+  row-gap: 24px;
+}
+
+.about-copy { grid-area: bio; }
+
+.about-copy p:last-child { margin-block-end: 0; }
+
+.about-quote { grid-area: quote; }
+
+.about-quote .quote {
+  padding-block: 18px;
+  font-size: clamp(18px, 2.1vw, 23px);
+}
+
+.about-quote .signature {
+  margin-block-start: 10px;
+  text-align: match-parent;
+}
+
+html[lang="ar"] .date { text-align: right; }
+
 .media-section { background: var(--paper); }
 
 .media-card {
   background: var(--paper);
   border-color: var(--line);
 }
+
+.media-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.media-body .media-link { margin-block-start: auto; }
 
 .media-visual, .community-picture { background: var(--soft-panel); }
 
@@ -163,8 +200,11 @@ html[lang="ar"] .section h2 {
 .community-copy p, .case-step p, .contact-location, .social-links a { color: var(--muted); }
 
 .event-note {
+  grid-area: photo;
+  justify-self: end;
+  width: 100%;
   max-width: 340px;
-  margin: 28px 0 0;
+  margin: 0;
   color: var(--muted);
   font-size: 14px;
   line-height: 1.55;
@@ -219,7 +259,14 @@ html[lang="ar"] .section h2 {
     margin-inline: auto;
   }
 
-  .event-note { margin-top: 22px; }
+  .about-grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "bio" "photo" "quote";
+  }
+
+  .event-note { justify-self: center; }
+
+  .event-note figcaption { text-align: center; }
 }
 
 @media print {
