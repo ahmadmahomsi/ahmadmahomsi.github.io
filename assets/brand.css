@@ -111,10 +111,11 @@ html[lang="ar"] .hero h1 {
 .portrait-stage::before { display: none; }
 
 .portrait {
-  width: 100%;
-  height: 100%;
-  border-radius: 0;
-  box-shadow: none;
+  width: 89%;
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--gold);
 }
 
 .trust, .case, .community, .contact-panel { background: var(--soft-panel); }
