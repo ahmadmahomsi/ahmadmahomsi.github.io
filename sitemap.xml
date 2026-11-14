@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://ahmadmalakhomsi.com/</loc>
     <image:image>
@@ -41,6 +40,24 @@
     </image:image>
     <image:image>
       <image:loc>https://ahmadmalakhomsi.com/assets/8f0a66f0a7d22e40.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ahmadmalakhomsi.com/media/</loc>
+    <image:image>
+      <image:loc>https://ahmadmalakhomsi.com/assets/538112f0e08a0ca0.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://ahmadmalakhomsi.com/assets/9ce82f50197b140a.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ahmadmalakhomsi.com/en/media/</loc>
+    <image:image>
+      <image:loc>https://ahmadmalakhomsi.com/assets/538112f0e08a0ca0.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://ahmadmalakhomsi.com/assets/9ce82f50197b140a.png</image:loc>
     </image:image>
   </url>
 </urlset>

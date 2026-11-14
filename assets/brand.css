@@ -285,3 +285,10 @@ html[lang="ar"] .date { text-align: right; }
   .section { padding-block: 25px; }
   .hero-grid { min-height: 0; padding-block: 30px; }
 }
+
+.interviews-page h1 {
+  margin: 0;
+  font-size: clamp(32px, 6vw, 64px);
+  line-height: 1.3;
+  letter-spacing: normal;
+}
